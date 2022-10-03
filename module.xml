@@ -20,6 +20,8 @@
         <Invoke Class="HoleFoods.Utils" Method="Setup"></Invoke>
         <Invoke Class="BI.Populate" Method="Setup"></Invoke>
       </Invokes>
+    <Parameter Name="folder" Value="irisapp" />
+    <FileCopy Name="dsw/irisapp.json" Target="${cspdir}dsw/configs/${folder}.json"/>
     </Module>
     
   </Document>
