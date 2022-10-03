@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache">
+<Document name="Listing with Filters.dashboard.DFI">
+<dashboard xmlns="http://www.intersystems.com/deepsee/library" name="Listing with Filters" folderName="" title="" description="" keywords="Patients,listings" owner="" shared="true" public="true" locked="false" resource="" timeCreated="2013-01-08T20:05:42.595Z" createdBy="" category="" bookCover="{background: {style:&apos;background-color:white;opacity:0.39;&apos;,src:&apos;covers/10954578_s.jpg&apos;},header: {text:&apos;$type&apos;},title: {text:&apos;$title&apos;,style:&apos;font-weight: bold;font-family:verdana;left:21.875px;left:21.875px;width:102.5px;&apos;},image: {style:&apos;width:135px;height:122.5px;&apos;,src:&apos;covers/views_128.gif&apos;,imageStyle:&apos;width:135px;height:122.5px;&apos;},footer: {text:&apos;$owner&apos;}}" scheme="" worklistCount="0" snapTo="true" snapGrid="false" gridRows="2" gridCols="2" canResize="true" canModify="true" showTitleBar="true" titleBarOpacity="" titleBarColor="" selectedTitleBarOpacity="" selectedTitleBarColor="" titleBarTextColor="" selectedTitleBarTextColor="" titleBarFont="" companyName="Patients Sample" companyLogo="" companyStyle="" backgroundColor="white" backgroundImage="none" backgroundRepeat="no-repeat" backgroundSize="100% 100%" backgroundOpacity="1" widgetBorders="1px solid #F0F0F0" widgetBordersSwitch="edit" widgetBordersColor="#F0F0F0" widgetBordersStyle="solid" widgetBordersWidth="1" widgetBordersToggle="true">
+  <widget name="Widget1" type="pivot" subtype="pivot" subtypeClass="" title="" dataSource="Use in Dashboards/Patients Listing.pivot" dataLink="" drillDownDataSource="" top="0" left="0" width="699" height="690" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
+    <control name="" action="applyFilter" target="*" targetProperty="[HomeD].[H1].[ZIP]" location="widget" type="auto" controlClass="" label="Home ZIP Code" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+    </control>
+    <control name="" action="applyFilter" target="*" targetProperty="[AgeD].[H1].[Age Group]" location="widget" type="auto" controlClass="" label="Age Group" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+    </control>
+    <control name="" action="applyFilter" target="*" targetProperty="[DiagD].[H1].[Diagnoses]" location="widget" type="auto" controlClass="" label="Diagnoses" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+    </control>
+    <property name="analyzer">0</property>
+  </widget>
+</dashboard>
+</Document></Export>

@@ -11,6 +11,7 @@
 
  zn "IRISAPP"
  zpm "install isc-dev"
+ zpm "install dsw"
  do ##class(dev.code).workdir("/irisdev/app/src")
  do EnableDeepSee^%SYS.cspServer("/csp/irisapp/")
  zpm "load /opt/irisapp/ -v -Dfolder=irisapp"

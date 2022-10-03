@@ -47,6 +47,19 @@ docker system prune -f
 d $System.SQL.Shell()
 ```
 
+## export IRIS Analytics artifacts
+```
+d ##class(dev.code).export("*.DFI")
+```
+## build cube
+```
+do ##class(%DeepSee.Utils).%BuildCube("CubeName")
+```
+## export globals
+```
+do $System.OBJ.Export("dc*.GBL","/irisdev/app/src/gbl/globals.xml",,.errors)
+zw errors
+```
 
 
 

@@ -9,7 +9,10 @@
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="BI.PKG"/>
       <Resource Name="HoleFoods.PKG"/>
-       <Resource Name="ZipCodeData.GBL"/>
+      <Resource Name="ZipCodeData.GBL"/>
+      <Resource Name="DeepSee.TermList.GBL"/>
+      <Resource Name="DeepSee.Variables.GBL"/>
+      <Resource Name="*.DFI" />
       <Invokes>
         <Invoke Class="HoleFoods.Utils" Method="StopJournalling">
           <Arg>${namespace}</Arg>
