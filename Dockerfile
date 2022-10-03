@@ -13,6 +13,7 @@ COPY  Installer.cls .
 COPY src src
 COPY  module.xml .  
 COPY iris.script /tmp/iris.script
+COPY dsw/irisapp.json dsw/irisapp.json
 
 # run iris and script
 RUN iris start IRIS \
