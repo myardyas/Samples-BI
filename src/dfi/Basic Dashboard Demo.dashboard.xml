@@ -15,6 +15,9 @@
     <control name="" action="showListing" target="" targetProperty="" location="widget" type="auto" controlClass="" label="" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
       <valueRequired>false</valueRequired>
     </control>
+    <control name="" action="viewDashboard" target="" targetProperty="Bug/ClickFilter.dashboard" location="widget" type="auto" controlClass="" label="Click Filter Dashboard" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+    </control>
     <property name="XgridLines">0</property>
     <property name="YgridLines">0</property>
     <property name="analyzer">1</property>
