@@ -6,10 +6,10 @@
     <control name="" action="showListing" target="" targetProperty="" location="widget" type="auto" controlClass="" label="" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="itemSelected">
       <valueRequired>false</valueRequired>
     </control>
-    <control name="" action="applyFilter" target="" targetProperty="[Outlet].[H1].[Region]" location="widget" type="auto" controlClass="" label="Region" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+    <control name="" action="applyFilter" target="" targetProperty="[Outlet].[H1].[Region]" location="widget" type="auto" controlClass="" label="Region" title="" value="&amp;[Europe]" text="Europe" readOnly="false" valueList="" displayList="" activeWhen="">
       <valueRequired>false</valueRequired>
     </control>
-    <control name="" action="applyFilter" target="" targetProperty="[Channel].[H1].[Channel Name]" location="widget" type="auto" controlClass="" label="Channel Name" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+    <control name="" action="applyFilter" target="" targetProperty="[Channel].[H1].[Channel Name]" location="widget" type="auto" controlClass="" label="Channel Name" title="" value="&amp;[2]" text="Online" readOnly="false" valueList="" displayList="" activeWhen="">
       <valueRequired>false</valueRequired>
     </control>
   </widget>
