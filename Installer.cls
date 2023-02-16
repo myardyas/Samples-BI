@@ -4,7 +4,7 @@ Class App.Installer
 XData setup
 {
 <Manifest>
-  <Default Name="SourceDir" Value="/opt/irisapp/src"/>
+  <Default Name="SourceDir" Value="/home/irisowner/irisdev/src"/>
   <Default Name="Namespace" Value="IRISAPP"/>
   <Default Name="app" Value="irisapp" />
   <Default Name="restapp" Value="/rest-test" />
@@ -12,7 +12,7 @@ XData setup
   <Namespace Name="${Namespace}" Code="${Namespace}" Data="${Namespace}" Create="yes" Ensemble="no">
 
     <Configuration>
-      <Database Name="${Namespace}" Dir="/opt/${app}/data" Create="yes" Resource="%DB_${Namespace}"/>
+      <Database Name="${Namespace}" Dir="/home/irisowner/irisdev/${app}/data" Create="yes" Resource="%DB_${Namespace}"/>
 
       <Import File="${SourceDir}" Flags="ck" Recurse="1"/>
     </Configuration>

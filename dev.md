@@ -63,3 +63,4 @@ zw errors
 
 
 
+w ##class(%ZPM.PackageManager.Developer.Module).NameOpen("BI.Model").Root
