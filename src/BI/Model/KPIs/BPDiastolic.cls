@@ -6,7 +6,7 @@ Class BI.Model.KPIs.BPDiastolic Extends %DeepSee.KPI
 XData KPI [ XMLNamespace = "http://www.intersystems.com/deepsee/kpi" ]
 {
 <kpi name="BPDiastolic" sourceType="mdx" 
-mdx='SELECT {70} ON 0 FROM [PATIENTS]'
+mdx='SELECT {70.707707070} ON 0 FROM [PATIENTS]'
 >
 <property name="Diastolic"  columnNo="1" />
 
@@ -23,4 +23,3 @@ Method %OnLoadKPI() As %Status
 }
 
 }
-
