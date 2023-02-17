@@ -4,16 +4,16 @@ FROM $IMAGE
 
 WORKDIR /home/irisowner/irisdev
 
-
 # copy files
 COPY  Installer.cls .
 COPY src src
-COPY  module.xml .  
+COPY  module.xml .
 COPY iris.script /tmp/iris.script
 COPY dsw/irisapp.json dsw/irisapp.json
 
 # run iris and script
-RUN iris start IRIS \
+RUN --mount=type=bind,src=src,dst=src \
+    iris start IRIS \
 	&& iris session IRIS < /tmp/iris.script \
     && iris stop IRIS quietly
 
