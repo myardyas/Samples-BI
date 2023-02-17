@@ -14,7 +14,7 @@
         "internalPort": 52773
       },
       "links": {
-        "SAMPLES BI in ZEN": "http://localhost:${port}/csp/user/_DeepSee.UserPortal.DashboardViewer.zen",
+        "SAMPLES BI in ZEN": "http://localhost:${port}/csp/user/_DeepSee.UserPortal.Home.zen",
         "SAMPLES BI in DSW": "http://localhost:${port}/dsw/index.html#/USER"
       }
     }

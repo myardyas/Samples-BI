@@ -6,8 +6,8 @@
  ;; do user.Roles.Insert("%All")
 
  ; run installer to create namespace
- do $SYSTEM.OBJ.Load("/home/irisowner/irisdev/Installer.cls", "ck")
- set sc = ##class(App.Installer).setup()
+#;  do $SYSTEM.OBJ.Load("/home/irisowner/irisdev/Installer.cls", "ck")
+#;  set sc = ##class(App.Installer).setup()
 
  zn "USER"
  zpm "install isc-dev"
