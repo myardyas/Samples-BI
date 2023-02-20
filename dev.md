@@ -50,6 +50,7 @@ d $System.SQL.Shell()
 ## export IRIS Analytics artifacts
 ```
 d ##class(dev.code).export("*.DFI")
+d ##class(dev.code).export("BUG*.DFI")
 ```
 ## build cube
 ```
