@@ -65,3 +65,13 @@ zw errors
 
 
 w ##class(%ZPM.PackageManager.Developer.Module).NameOpen("BI.Model").Root
+
+
+ <control name="" action="setRowCount" target="*" targetProperty="" location="dashboard" type="auto" controlClass="" label="$$$@TopN/Trakcare.Analytics.UI" title="" value="25" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+
+
+ <control name="" action="setRowCount" target="" targetProperty="" location="widget" type="auto" controlClass="" label="" title="" value="2" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+    </control>
+
