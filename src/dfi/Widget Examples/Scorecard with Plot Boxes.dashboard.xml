@@ -25,6 +25,7 @@
     <dataProperty name="" label="Population" width="" align="" subtype="" style="" display="value" format="" showAs="value" valueColumn="false" summary="sum" summaryValue="" dataValue="Population" targetValue="" thresholdLower="" thresholdUpper="" rangeLower="" rangeUpper="" baseValue="" override=""></dataProperty>
     <dataProperty name="" label="% of \nPopulation" width="" align="" subtype="" style="" display="value" format="" showAs="target%" valueColumn="false" summary="" summaryValue="" dataValue="Patient Count" targetValue="Population" thresholdLower="" thresholdUpper="" rangeLower="" rangeUpper="" baseValue="" override=""></dataProperty>
     <property name="analyzer">0</property>
+    <override name="scoreCard">{width:780,columns:[{display:'itemNo',_type:'scoreCardColumn'},{display:'label',_type:'scoreCardColumn'},{dataValue:'Patient Count',display:'value',label:'Patient \\nCount',showAs:'value',summary:'sum',_type:'scoreCardColumn'},{dataValue:'Patient Count',display:'plotBox',label:'Patient \\nCount',rangeUpper:'150',showAs:'value',_type:'scoreCardColumn'},{dataValue:'Population',display:'value',label:'Population',showAs:'value',summary:'sum',_type:'scoreCardColumn'},{dataValue:'Patient Count',display:'value',format:'%##.##',label:'% of \\nPopulation',showAs:'sum%',targetValue:'Patient Count',_type:'scoreCardColumn'}],pivotData:true,_type:'scoreCard'}</override>
   </widget>
 </dashboard>
 </Document></Export>
